@@ -48,7 +48,7 @@ This repo contains three GitHub workflows:
 
 1. Fork this repo to your GitHub account.
 1. Clone the copy repo to your local machine.
-1. Edit [workflow](./.github/workflows/serverless-api.yml); modify parameter values.
+1. Edit [workflows](./.github/workflows/); modify parameter values.
 1. Optional parameters in [Bicep file](./deploy/main.bicep) can be edited.
 1. Commit changes will automatically trigger the workflow to deploy Azure resources and applications.
 
